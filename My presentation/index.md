@@ -1,0 +1,63 @@
+---
+title       : Explaination of app
+subtitle    : 
+author      : Spark
+job         : Student
+framework   : io2012    # {io2012, html5slides, shower, dzslides, ...}
+logo        : iit_kharagpur_logo.png
+highlighter : prettify # {highlight.js, prettify, highlight}
+hitheme     : solarized_light      # 
+widgets     : [bootstrap,quiz]            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+ext_widgets : {rCharts: [libraries/nvd3]}
+---
+
+## Sample Plots 
+
+```r
+data(mtcars)
+plot(mtcars$disp,mtcars$wt)
+```
+
+![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png) 
+
+--- &radio
+## Quiz 
+
+What is the largest country in world ?   
+
+1. _Russia_
+2. America
+3. United Kingdom
+4. China
+*** .hint 
+Its not China
+*** .explanation 
+Google it to know explanation 
+
+--- 
+
+## Sample code
+Simple R code
+
+```r
+data(mtcars)
+mean(mtcars$mpg)
+```
+
+```
+## [1] 20.09062
+```
+
+```r
+mean(mtcars$disp)
+```
+
+```
+## [1] 230.7219
+```
+
+---
+## Last slide
+1. This is how slides are prepared.
+2. We can create interactive plots and mathematical equations
